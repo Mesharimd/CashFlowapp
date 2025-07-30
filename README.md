@@ -117,7 +117,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Meshari**
 - GitHub: [@Mesharimd](https://github.com/Mesharimd)
-- LinkedIn: [Meshari Doweesh](https://linkedin.com/in/mesharidoweesh)
+- LinkedIn: [Meshari AlDoweesh](https://linkedin.com/in/mesharidoweesh)
 
 ## 🙏 Acknowledgments
 
