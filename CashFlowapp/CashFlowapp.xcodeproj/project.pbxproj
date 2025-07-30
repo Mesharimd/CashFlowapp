@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672487882E39B6BC00920CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487872E39B6BC00920CAA /* ContentView.swift */; };
+		672487F22E39C09700920CAA /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487E52E39C09700920CAA /* CategoryRepository.swift */; };
+		672487F32E39C09700920CAA /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487EE2E39C09700920CAA /* DashboardView.swift */; };
+		672487F42E39C09700920CAA /* CategoryManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487ED2E39C09700920CAA /* CategoryManagerView.swift */; };
+		672487F52E39C09700920CAA /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487EB2E39C09700920CAA /* TransactionListViewModel.swift */; };
+		672487F62E39C09700920CAA /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487E92E39C09700920CAA /* DashboardViewModel.swift */; };
+		672487F72E39C09700920CAA /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487EF2E39C09700920CAA /* TransactionFormView.swift */; };
+		672487F82E39C09700920CAA /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487F02E39C09700920CAA /* TransactionListView.swift */; };
+		672487F92E39C09700920CAA /* TransactionFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487EA2E39C09700920CAA /* TransactionFormViewModel.swift */; };
+		672487FA2E39C09700920CAA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487E32E39C09700920CAA /* DataController.swift */; };
+		672487FB2E39C09700920CAA /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487E82E39C09700920CAA /* CategoryViewModel.swift */; };
+		672487FC2E39C09700920CAA /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487E62E39C09700920CAA /* TransactionRepository.swift */; };
+		672487FD2E39C09700920CAA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672487E12E39C09700920CAA /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		672487982E39B6BD00920CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6724877A2E39B6BC00920CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672487812E39B6BC00920CAA;
+			remoteInfo = CashFlowapp;
+		};
+		672487A22E39B6BD00920CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6724877A2E39B6BC00920CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 672487812E39B6BC00920CAA;
+			remoteInfo = CashFlowapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		672487822E39B6BC00920CAA /* CashFlowapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashFlowapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672487872E39B6BC00920CAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		672487972E39B6BD00920CAA /* CashFlowappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashFlowappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672487A12E39B6BD00920CAA /* CashFlowappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashFlowappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672487E12E39C09700920CAA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		672487E32E39C09700920CAA /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		672487E52E39C09700920CAA /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
+		672487E62E39C09700920CAA /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		672487E82E39C09700920CAA /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		672487E92E39C09700920CAA /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		672487EA2E39C09700920CAA /* TransactionFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormViewModel.swift; sourceTree = "<group>"; };
+		672487EB2E39C09700920CAA /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		672487ED2E39C09700920CAA /* CategoryManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManagerView.swift; sourceTree = "<group>"; };
+		672487EE2E39C09700920CAA /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		672487EF2E39C09700920CAA /* TransactionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
+		672487F02E39C09700920CAA /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		672487B82E39B7BD00920CAA /* Exceptions for "CashFlowapp" folder in "CashFlowappTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model.xcdatamodeld,
+			);
+			target = 672487962E39B6BD00920CAA /* CashFlowappTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		672487842E39B6BC00920CAA /* CashFlowapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				672487B82E39B7BD00920CAA /* Exceptions for "CashFlowapp" folder in "CashFlowappTests" target */,
+			);
+			path = CashFlowapp;
+			sourceTree = "<group>";
+		};
+		6724879A2E39B6BD00920CAA /* CashFlowappTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CashFlowappTests;
+			sourceTree = "<group>";
+		};
+		672487A42E39B6BD00920CAA /* CashFlowappUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CashFlowappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6724877F2E39B6BC00920CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672487942E39B6BD00920CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6724879E2E39B6BD00920CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		672487792E39B6BC00920CAA = {
+			isa = PBXGroup;
+			children = (
+				672487E22E39C09700920CAA /* Design */,
+				672487E42E39C09700920CAA /* Models */,
+				672487E72E39C09700920CAA /* Repositories */,
+				672487EC2E39C09700920CAA /* ViewModels */,
+				672487F12E39C09700920CAA /* Views */,
+				672487872E39B6BC00920CAA /* ContentView.swift */,
+				672487842E39B6BC00920CAA /* CashFlowapp */,
+				6724879A2E39B6BD00920CAA /* CashFlowappTests */,
+				672487A42E39B6BD00920CAA /* CashFlowappUITests */,
+				672487832E39B6BC00920CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		672487832E39B6BC00920CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				672487822E39B6BC00920CAA /* CashFlowapp.app */,
+				672487972E39B6BD00920CAA /* CashFlowappTests.xctest */,
+				672487A12E39B6BD00920CAA /* CashFlowappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		672487E22E39C09700920CAA /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				672487E12E39C09700920CAA /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		672487E42E39C09700920CAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				672487E32E39C09700920CAA /* DataController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		672487E72E39C09700920CAA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				672487E52E39C09700920CAA /* CategoryRepository.swift */,
+				672487E62E39C09700920CAA /* TransactionRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		672487EC2E39C09700920CAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				672487E82E39C09700920CAA /* CategoryViewModel.swift */,
+				672487E92E39C09700920CAA /* DashboardViewModel.swift */,
+				672487EA2E39C09700920CAA /* TransactionFormViewModel.swift */,
+				672487EB2E39C09700920CAA /* TransactionListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		672487F12E39C09700920CAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				672487ED2E39C09700920CAA /* CategoryManagerView.swift */,
+				672487EE2E39C09700920CAA /* DashboardView.swift */,
+				672487EF2E39C09700920CAA /* TransactionFormView.swift */,
+				672487F02E39C09700920CAA /* TransactionListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		672487812E39B6BC00920CAA /* CashFlowapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672487AB2E39B6BD00920CAA /* Build configuration list for PBXNativeTarget "CashFlowapp" */;
+			buildPhases = (
+				6724877E2E39B6BC00920CAA /* Sources */,
+				6724877F2E39B6BC00920CAA /* Frameworks */,
+				672487802E39B6BC00920CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				672487842E39B6BC00920CAA /* CashFlowapp */,
+			);
+			name = CashFlowapp;
+			packageProductDependencies = (
+			);
+			productName = CashFlowapp;
+			productReference = 672487822E39B6BC00920CAA /* CashFlowapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		672487962E39B6BD00920CAA /* CashFlowappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672487AE2E39B6BD00920CAA /* Build configuration list for PBXNativeTarget "CashFlowappTests" */;
+			buildPhases = (
+				672487932E39B6BD00920CAA /* Sources */,
+				672487942E39B6BD00920CAA /* Frameworks */,
+				672487952E39B6BD00920CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672487992E39B6BD00920CAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6724879A2E39B6BD00920CAA /* CashFlowappTests */,
+			);
+			name = CashFlowappTests;
+			packageProductDependencies = (
+			);
+			productName = CashFlowappTests;
+			productReference = 672487972E39B6BD00920CAA /* CashFlowappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		672487A02E39B6BD00920CAA /* CashFlowappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672487B12E39B6BD00920CAA /* Build configuration list for PBXNativeTarget "CashFlowappUITests" */;
+			buildPhases = (
+				6724879D2E39B6BD00920CAA /* Sources */,
+				6724879E2E39B6BD00920CAA /* Frameworks */,
+				6724879F2E39B6BD00920CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				672487A32E39B6BD00920CAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				672487A42E39B6BD00920CAA /* CashFlowappUITests */,
+			);
+			name = CashFlowappUITests;
+			packageProductDependencies = (
+			);
+			productName = CashFlowappUITests;
+			productReference = 672487A12E39B6BD00920CAA /* CashFlowappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6724877A2E39B6BC00920CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					672487812E39B6BC00920CAA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					672487962E39B6BD00920CAA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 672487812E39B6BC00920CAA;
+					};
+					672487A02E39B6BD00920CAA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 672487812E39B6BC00920CAA;
+					};
+				};
+			};
+			buildConfigurationList = 6724877D2E39B6BC00920CAA /* Build configuration list for PBXProject "CashFlowapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 672487792E39B6BC00920CAA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 672487832E39B6BC00920CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				672487812E39B6BC00920CAA /* CashFlowapp */,
+				672487962E39B6BD00920CAA /* CashFlowappTests */,
+				672487A02E39B6BD00920CAA /* CashFlowappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		672487802E39B6BC00920CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672487952E39B6BD00920CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6724879F2E39B6BD00920CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6724877E2E39B6BC00920CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672487882E39B6BC00920CAA /* ContentView.swift in Sources */,
+				672487F22E39C09700920CAA /* CategoryRepository.swift in Sources */,
+				672487F32E39C09700920CAA /* DashboardView.swift in Sources */,
+				672487F42E39C09700920CAA /* CategoryManagerView.swift in Sources */,
+				672487F52E39C09700920CAA /* TransactionListViewModel.swift in Sources */,
+				672487F62E39C09700920CAA /* DashboardViewModel.swift in Sources */,
+				672487F72E39C09700920CAA /* TransactionFormView.swift in Sources */,
+				672487F82E39C09700920CAA /* TransactionListView.swift in Sources */,
+				672487F92E39C09700920CAA /* TransactionFormViewModel.swift in Sources */,
+				672487FA2E39C09700920CAA /* DataController.swift in Sources */,
+				672487FB2E39C09700920CAA /* CategoryViewModel.swift in Sources */,
+				672487FC2E39C09700920CAA /* TransactionRepository.swift in Sources */,
+				672487FD2E39C09700920CAA /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672487932E39B6BD00920CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6724879D2E39B6BD00920CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		672487992E39B6BD00920CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672487812E39B6BC00920CAA /* CashFlowapp */;
+			targetProxy = 672487982E39B6BD00920CAA /* PBXContainerItemProxy */;
+		};
+		672487A32E39B6BD00920CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 672487812E39B6BC00920CAA /* CashFlowapp */;
+			targetProxy = 672487A22E39B6BD00920CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		672487A92E39B6BD00920CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		672487AA2E39B6BD00920CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		672487AC2E39B6BD00920CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashFlowapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.CashFlowapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		672487AD2E39B6BD00920CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashFlowapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.CashFlowapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		672487AF2E39B6BD00920CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.CashFlowappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashFlowapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashFlowapp";
+			};
+			name = Debug;
+		};
+		672487B02E39B6BD00920CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.CashFlowappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashFlowapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashFlowapp";
+			};
+			name = Release;
+		};
+		672487B22E39B6BD00920CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.CashFlowappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashFlowapp;
+			};
+			name = Debug;
+		};
+		672487B32E39B6BD00920CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = t.CashFlowappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashFlowapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6724877D2E39B6BC00920CAA /* Build configuration list for PBXProject "CashFlowapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672487A92E39B6BD00920CAA /* Debug */,
+				672487AA2E39B6BD00920CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672487AB2E39B6BD00920CAA /* Build configuration list for PBXNativeTarget "CashFlowapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672487AC2E39B6BD00920CAA /* Debug */,
+				672487AD2E39B6BD00920CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672487AE2E39B6BD00920CAA /* Build configuration list for PBXNativeTarget "CashFlowappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672487AF2E39B6BD00920CAA /* Debug */,
+				672487B02E39B6BD00920CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672487B12E39B6BD00920CAA /* Build configuration list for PBXNativeTarget "CashFlowappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672487B22E39B6BD00920CAA /* Debug */,
+				672487B32E39B6BD00920CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6724877A2E39B6BC00920CAA /* Project object */;
+}
